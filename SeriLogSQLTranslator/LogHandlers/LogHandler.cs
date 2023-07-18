@@ -1,4 +1,5 @@
-﻿using Serilog.Events;
+﻿using System;
+using Serilog.Events;
 using SeriSQLTranslator.Services;
 
 namespace SeriSQLTranslator.LogHandlers;
