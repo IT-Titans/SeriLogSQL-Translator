@@ -1,14 +1,12 @@
+
 # SeriLogSQL-Translator
 
-SeriLogSQL Translator is a dynamic tool designed to translate SeriLog log strings into SQL commands using a GUI. It also outputs these SQL commands for further utilization. It uses parameters as placeholders that are replaced with the accurate values during the parsing phase.
+SeriLogSQL Translator is a dynamic tool designed to translate SeriLog log strings into SQL commands. It also outputs these SQL commands for further utilization. It uses parameters as placeholders that are replaced with the accurate values during the parsing phase.
 
 ## Features
 
-### GUI-based Translation
-Allows you to interactively translate SeriLog log strings into SQL commands. Just paste the log string into the provided field, and the tool will generate the corresponding SQL commands. 
-
 ### Custom Console Sink Integration
-The tool can be integrated directly into SeriLog without the need to use the GUI. This feature enables the interception of logs directly by the sink, allowing them to be translated as desired and displayed as a log in the console.
+The tool can be integrated directly into SeriLog. This feature enables the interception of logs directly by the sink, allowing them to be translated as desired and displayed as a log in the console.
 
 ## Installation
 
@@ -23,22 +21,13 @@ Implement SeriLog as Logger in your project and configure the logging sink for y
 
 
 ```csharp
-Log.Logger = new LoggerConfiguration()
-            .MinimumLevel.Information()
-            .WriteTo.Sink(new CustomConsoleSink(logHandler))
-            .CreateLogger();
+Log.Logger = new LoggerConfiguration()  
+.WriteTo.Sink(new ConsoleLogParsingSink())  
+.CreateLogger();
 ```		
-   The sink to use is called "CustomConsoleSink" and it expects an Action of type ```LogEvent``` as parameter.
+   The sink to use is called ```ConsoleLogParsingSink```.
 
 ## Usage
-
-### GUI-based Translation
-
-<ol> 
-<li>Open the SeriLog Translator GUI.</li>
-<li>In the input field, paste or type the SeriLog string you wish to translate.</li>
-<li>. Click the 'Parse' button.</li>
-<li>. The translated SQL commands will appear in the output field. You can copy these for use in your SQL environment</li></ol>
 
 ### Custom Console Sink Integration
 
