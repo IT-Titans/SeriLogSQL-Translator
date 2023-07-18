@@ -1,0 +1,14 @@
+C:\Users\Dona\SeriLogSQL-Translator\SeriSQLTranslator\bin\Debug\net6.0\README.md
+C:\Users\Dona\SeriLogSQL-Translator\SeriSQLTranslator\bin\Debug\net6.0\SeriSQLTranslator.deps.json
+C:\Users\Dona\SeriLogSQL-Translator\SeriSQLTranslator\bin\Debug\net6.0\SeriSQLTranslator.dll
+C:\Users\Dona\SeriLogSQL-Translator\SeriSQLTranslator\bin\Debug\net6.0\SeriSQLTranslator.pdb
+C:\Users\Dona\SeriLogSQL-Translator\SeriSQLTranslator\obj\Debug\net6.0\SeriSQLTranslator.csproj.AssemblyReference.cache
+C:\Users\Dona\SeriLogSQL-Translator\SeriSQLTranslator\obj\Debug\net6.0\SeriSQLTranslator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dona\SeriLogSQL-Translator\SeriSQLTranslator\obj\Debug\net6.0\SeriSQLTranslator.AssemblyInfoInputs.cache
+C:\Users\Dona\SeriLogSQL-Translator\SeriSQLTranslator\obj\Debug\net6.0\SeriSQLTranslator.AssemblyInfo.cs
+C:\Users\Dona\SeriLogSQL-Translator\SeriSQLTranslator\obj\Debug\net6.0\SeriSQLTranslator.csproj.CoreCompileInputs.cache
+C:\Users\Dona\SeriLogSQL-Translator\SeriSQLTranslator\obj\Debug\net6.0\SeriSQLTranslator.dll
+C:\Users\Dona\SeriLogSQL-Translator\SeriSQLTranslator\obj\Debug\net6.0\refint\SeriSQLTranslator.dll
+C:\Users\Dona\SeriLogSQL-Translator\SeriSQLTranslator\obj\Debug\net6.0\SeriSQLTranslator.pdb
+C:\Users\Dona\SeriLogSQL-Translator\SeriSQLTranslator\obj\Debug\net6.0\ref\SeriSQLTranslator.dll
+C:\Users\Dona\SeriLogSQL-Translator\SeriSQLTranslator\bin\Debug\net6.0\LICENSE.txt
