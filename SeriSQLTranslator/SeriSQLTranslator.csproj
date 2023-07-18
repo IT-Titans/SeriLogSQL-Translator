@@ -4,6 +4,12 @@
         <TargetFramework>net6.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <Description>SeriLogSQL Translator is a powerful and user-friendly tool designed to bridge the gap between SeriLog and SQL. Leveraging a robust parsing system, it transforms SeriLog log strings into executable SQL commands, eliminating the need for manual translation and making your database interactions more efficient and reliable.</Description>
+        <RepositoryUrl>https://github.com/IT-Titans/SeriLogSQL-Translator</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageTags>logging, log, console, sql, efcore, entity framework</PackageTags>
+        <Authors>IT Titans GmbH</Authors>
+        <PackageId>ItTitansGmbh.Utility.SeriSQLTranslator</PackageId>
     </PropertyGroup>
 
     <ItemGroup>
