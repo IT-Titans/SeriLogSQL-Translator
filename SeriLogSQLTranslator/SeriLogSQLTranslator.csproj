@@ -9,7 +9,7 @@
         <RepositoryType>git</RepositoryType>
         <PackageTags>logging, log, console, sql, efcore, entity framework</PackageTags>
         <Authors>IT Titans GmbH</Authors>
-        <PackageId>ItTitansGmbh.Utility.SeriSQLTranslator</PackageId>
+        <PackageId>ItTitansGmbh.Utility.SeriLogSQLTranslator</PackageId>
         <PackageReadmeFile>README.md</PackageReadmeFile>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <RootNamespace>SeriSQLTranslator</RootNamespace>
@@ -19,13 +19,6 @@
       <Folder Include="Models\" />
       <Folder Include="Services\Interfaces\" />
       <Folder Include="Sinks\" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <PackageReference Include="Serilog" Version="3.0.1" />
-      <PackageReference Include="Serilog.Extensions" Version="2.2.2" />
-      <PackageReference Include="Serilog.Sinks.Console" Version="4.1.0" />
-      <PackageReference Include="Serilog.Sinks.Console.LogThemes" Version="0.3.0" />
     </ItemGroup>
 
     <ItemGroup>
@@ -42,6 +35,13 @@
       <None Update="README.md">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </None>
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Serilog" Version="3.0.1" />
+      <PackageReference Include="Serilog.Extensions" Version="2.2.2" />
+      <PackageReference Include="Serilog.Sinks.Console" Version="4.1.0" />
+      <PackageReference Include="Serilog.Sinks.Console.LogThemes" Version="0.3.0" />
     </ItemGroup>
 
 </Project>

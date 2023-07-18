@@ -1,4 +1,5 @@
 
+
 # SeriLogSQL-Translator
 
 SeriLogSQL Translator is a dynamic tool designed to translate SeriLog log strings into SQL commands. It also outputs these SQL commands for further utilization. It uses parameters as placeholders that are replaced with the accurate values during the parsing phase.
@@ -10,10 +11,8 @@ The tool can be integrated directly into SeriLog. This feature enables the inter
 
 ## Installation
 
-<ol>
-	<li>Clone the repository to your local machine</li>
- 	<li>Open the project in your IDE</li>
-</ol>
+1. Clone the repository to your local machine
+2. Open the project in your IDE
 
 For integration with SeriLog:
 
@@ -31,11 +30,11 @@ Log.Logger = new LoggerConfiguration()
 
 ### Custom Console Sink Integration
 
-<ol>
-<li>Ensure the custom console sink has been correctly integrated with SeriLog according to the installation instructions</li>
-<li>In SeriLog, generate the logs you wish to translate.</li>
-<li>The translated SQL commands will be automatically outputted to the console.</li>
-</ol>
+1. Ensure the custom console sink has been correctly integrated with 
+2. SeriLog according to the installation instructions
+3. In SeriLog, generate the logs you wish to translate.
+4. The translated SQL commands will be automatically outputted to the console.
+
 
 ## Contributing
 
