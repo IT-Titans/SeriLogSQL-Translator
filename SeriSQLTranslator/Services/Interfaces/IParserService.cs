@@ -5,7 +5,6 @@
 /// </summary>
 public interface IParserService
 {
-    
     /// <summary>
     /// A log string is parsed to a sql command. Placeholder parameters from the sql command are replaced from the log string.
     /// </summary>

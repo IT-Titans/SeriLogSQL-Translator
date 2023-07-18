@@ -3,7 +3,7 @@
 namespace SeriSQLTranslator.Services;
 
 /// <summary>
-/// Class to Format parts of the console.
+/// Service to Format parts of the console.
 /// </summary>
 public class ConsoleFormatterService
 {

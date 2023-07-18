@@ -10,7 +10,6 @@ namespace SeriSQLTranslator.Sinks;
 /// </summary>
 public class ConsoleLogParsingSink : ILogEventSink
 {
-
     /// <summary>
     /// Method for delegating the LogEvent to the custom log handler. 
     /// </summary>

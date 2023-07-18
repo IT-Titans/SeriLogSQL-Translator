@@ -10,6 +10,7 @@
         <PackageTags>logging, log, console, sql, efcore, entity framework</PackageTags>
         <Authors>IT Titans GmbH</Authors>
         <PackageId>ItTitansGmbh.Utility.SeriSQLTranslator</PackageId>
+        <PacakgeReadmeFile>README.md</PacakgeReadmeFile>
     </PropertyGroup>
 
     <ItemGroup>
@@ -23,6 +24,9 @@
       <PackageReference Include="Serilog.Extensions" Version="2.2.2" />
       <PackageReference Include="Serilog.Sinks.Console" Version="4.1.0" />
       <PackageReference Include="Serilog.Sinks.Console.LogThemes" Version="0.3.0" />
+        <None Include="README.md" Pack="true" PackagePath="\">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
     </ItemGroup>
 
 </Project>
